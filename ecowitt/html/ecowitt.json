@@ -9,7 +9,11 @@
     "7":  "<i class=\"ewi-UV\" style=\"color:#${ultravioletColor}\"></i> ${ultravioletDanger}<br>UVI ${ultravioletIndex}<br><i class=\"ewi-light\"></i> ${illuminance} lux",
     "9B": "<i class=\"ewi-batt${batteryTempIcon}\"></i> Temp: ${batteryTemp} %<br><i class=\"ewi-batt${batteryRainIcon}\"></i> Rain: ${batteryRain} %<br><i class=\"ewi-batt${batteryWindIcon}\"></i> Wind: ${batteryWind} %",
     "12": "<i class=\"ewi-air\" style=\"color:#${aqiColor}\"></i> ${aqiDanger}<br>AQI: ${aqi}<br>PM2.5: ${pm25} &micro;g/m&sup3;<br>PM10: ${pm10} &micro;g/m&sup3;<br>CO₂: ${carbonDioxide} ppm",
-    "12A":"<i class=\"ewi-air\" style=\"color:#${aqiColor_avg_24h}\"></i> ${aqiDanger_avg_24h}<br>AQI: ${aqi_avg_24h}<br>PM2.5: ${pm25_avg_24h} &micro;g/m&sup3;<br>PM10: ${pm10_avg_24h} &micro;g/m&sup3;<br>CO₂: ${carbonDioxide_avg_24h} ppm"
+    "12A":"<i class=\"ewi-air\" style=\"color:#${aqiColor_avg_24h}\"></i> ${aqiDanger_avg_24h}<br>AQI: ${aqi_avg_24h}<br>PM2.5: ${pm25_avg_24h} &micro;g/m&sup3;<br>PM10: ${pm10_avg_24h} &micro;g/m&sup3;<br>CO₂: ${carbonDioxide_avg_24h} ppm",
+    "13": "<i class=\"ewi-soil\"></i>Soil Moisture: ${humidity} %",
+    "13B":"<i class=\"ewi-soil\"></i>Soil Moisture: ${humidity} %<br><i class=\"ewi-batt${batteryIcon}\"></i> ${battery} %",
+    "14": "<i class=\"ewi-humidity\"></i>Humidity: ${humidity} %",
+    "14B":"<i class=\"ewi-humidity\"></i>Humidity: ${humidity} %<br><i class=\"ewi-batt${batteryIcon}\"></i> ${battery} %",
       },
   "templatesImperial": {
     "0":  "<i class=\"ewi-temperature\"></i> ${temperature} &deg;F<br><i class=\"ewi-humidity\"></i> ${humidity} %",
