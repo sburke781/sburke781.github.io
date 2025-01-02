@@ -28,7 +28,7 @@
     "8":  "<i class=\"ewi-rain\"></i> ${rainRate} in/h<br><i class=\"ewi-windspeed\"></i> ${windSpeed} mph<br><i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}",
     "8A": "<i class=\"ewi-rain\"></i> ${rainRate} in/h<br><i class=\"ewi-windspeed\" style=\"color:#${windColor}\"></i> ${windSpeed} mph<br><i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}",
     "10": "<i class=\"ewi-rain\"></i> ${rainRate} in/hr<br>Hourly: ${rainHourly} in<br>Daily: ${rainDaily} in<br>Monthly: ${rainMonthly} in<br>Total: ${rainTotal} in",
-    "10A": "<i class=\"ewi-rain\"> ${rainRate} in/hr<br>Hourly: ${rainHourly} in<br>Daily: ${rainDaily} in<br>Monthly: ${rainMonthly} in<br>Yearly: ${rainYearly} in",
+    "10A": "<i class=\"ewi-rain\"></i> ${rainRate} in/hr<br>Hourly: ${rainHourly} in<br>Daily: ${rainDaily} in<br>Monthly: ${rainMonthly} in<br>Yearly: ${rainYearly} in",
     "11": "<i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}<br><i class=\"ewi-windspeed\"></i> ${windSpeed} mph<br>Gust: ${windGust} mph<br>Daily Max: ${windGustMaxDaily} mph",
     "15":  "<i class=\"ewi-temperature\"></i> ${temperature} &deg;F",
     "15B": "<i class=\"ewi-temperature\"></i> ${temperature} &deg;F<br><i class=\"ewi-batt${batteryIcon}\"></i> ${battery} %"
@@ -46,7 +46,7 @@
     "8":  "<i class=\"ewi-rain\"></i> ${rainRate} mm/h<br><i class=\"ewi-windspeed\"></i> ${windSpeed} km/h<br><i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}",
     "8A": "<i class=\"ewi-rain\"></i> ${rainRate} mm/h<br><i class=\"ewi-windspeed\" style=\"color:#${windColor}\"></i> ${windSpeed} km/h<br><i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}",
     "10": "<i class=\"ewi-rain\"></i> ${rainRate} mm/hr<br>Hourly: ${rainHourly} mm<br>Daily: ${rainDaily} mm<br>Monthly: ${rainMonthly} mm<br>Total: ${rainTotal} mm",
-    "10A": "<i class=\"ewi-rain\"> ${rainRate} mm/hr<br>Hourly: ${rainHourly} mm<br>Daily: ${rainDaily} mm<br>Monthly: ${rainMonthly} mm<br>Total: ${rainYearly} mm",
+    "10A": "<i class=\"ewi-rain\"></i> ${rainRate} mm/hr<br>Hourly: ${rainHourly} mm<br>Daily: ${rainDaily} mm<br>Monthly: ${rainMonthly} mm<br>Total: ${rainYearly} mm",
     "11": "<i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}<br><i class=\"ewi-windspeed\"></i> ${windSpeed} km/h<br>Gust: ${windGust} km/h<br>Daily Max: ${windGustMaxDaily} km/h",
     "15":  "<i class=\"ewi-temperature\"></i> ${temperature} &deg;C",
     "15B": "<i class=\"ewi-temperature\"></i> ${temperature} &deg;C<br><i class=\"ewi-batt${batteryIcon}\"></i> ${battery} %"
